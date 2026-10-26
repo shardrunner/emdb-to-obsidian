@@ -85,7 +85,9 @@ All records, names, trees, artwork signatures and rendered notes are planned bef
 
 ## Package validation
 
-[CI passed for commit `a6810c5`](https://github.com/shardrunner/emdb-to-obsidian/actions/runs/40252224941) on Ubuntu and Windows with Python 3.11/3.13, including distribution builds and installed-wheel smoke checks. After `uv build`, run `uv run python scripts/smoke_wheel.py`: it installs the built wheel into a separate temporary environment, clears `PYTHONPATH`, verifies isolated import, and exercises CLI version/help and synthetic offline dry-run/write from outside the repository. Dependency installation may need a package index; runtime checks use no provider.
+[CI passed for commit `a6810c5`](https://github.com/shardrunner/emdb-to-obsidian/actions/runs/40252224941) on Ubuntu and Windows with Python 3.11/3.13: **137 tests passed per Ubuntu job and 138 per Windows job**, with no skips. Distribution builds and installed-wheel smoke checks also passed.
+
+After `uv build`, run `uv run python scripts/smoke_wheel.py`: it installs the built wheel into a separate temporary environment, clears `PYTHONPATH`, verifies isolated import, and exercises CLI version/help and synthetic offline dry-run/write from outside the repository. Dependency installation may need a package index; runtime checks use no provider.
 
 ## Publication checklist
 

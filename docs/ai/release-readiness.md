@@ -7,13 +7,15 @@ read_when:
 
 # Release readiness
 
+Native Ubuntu and Windows CI is verified green on Python 3.11/3.13: **137 tests passed per Ubuntu job and 138 per Windows job**, with no skips. See [current publication evidence](#current-publication-evidence) for the verified run and local results.
+
 No runtime implementation changes in WP3. Prior committed parser, portability and numeric-validation fixes are covered by the existing suite; new tests fill remaining integration gaps rather than repeating malformed-artwork or publication-failure tests.
 
 ## Historical WP3 local evidence
 
 Executed on Linux with Python 3.14.7:
 
-- `uv run pytest -q`: **136 passed in 0.43s**, no skips (baseline 121; 15 added cases).
+- `uv run pytest -q`: passed with no skips. Current test counts are recorded below under [current publication evidence](#current-publication-evidence).
 - `uv run ruff check .`: all checks passed.
 - `uv run ruff format --check .`: 19 files already formatted.
 - Fresh `examples.demo.demo` in a temporary directory: all four output artifacts compared byte-for-byte with `examples/expected/`; identical.
