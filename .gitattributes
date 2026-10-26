@@ -1,0 +1,2 @@
+# Normalize tracked text, including synthetic golden output, on every platform.
+* text=auto eol=lf

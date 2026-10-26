@@ -1,0 +1,22 @@
+# Private inputs and generated output (never publish)
+/EMDB/
+/omdb_cache.json
+/private/
+/output/
+/demo-output/
+# Private EMDB artwork / episode data in place (scoped so synthetic
+# fixtures under examples/ and tests/ can still be committed).
+Covers/*.jpg
+**/Covers/*.jpg
+TVSeries/**/*.dat
+**/TVSeries/**/*.dat
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/

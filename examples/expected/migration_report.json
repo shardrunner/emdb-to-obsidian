@@ -1,0 +1,20 @@
+{
+  "duplicate_imdb_ids": {},
+  "network": "none",
+  "output_sha256": {
+    "Synthetic Signal (2020).md": "9add26f6d8aec1a89c6ad07102c9a62c16fce8eea8ffe61078e93c74bdc81694",
+    "The Synthetic Moon (2020).md": "53e6a3677b99d904f3e98bf2a740d81aac21469b8f5d607da51039edcdc4f145",
+    "metadata_snapshot.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "records": 2,
+  "schema_version": 1,
+  "source_sha256": {
+    "TVSeries/000002/000002.dat": "25911692b89136c447a017c235040ad57f398e86d27d6a3ab34c07d809e58b00",
+    "emdb.dat": "1bbfd457a99fd0ca9e05866211b89c8879b179b3236e1e2571bad94880479834"
+  },
+  "source_version": "78",
+  "warnings": [
+    "Record 1: no local poster",
+    "Record 2: no local poster"
+  ]
+}
