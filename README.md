@@ -8,8 +8,6 @@
 
 A validated **one-time importer** from a personal EMDB export (JSON version `78`) to Obsidian notes. It plans every note, name, episode tree and artwork byte before writing, then publishes to a fresh directory — dry-run by default, offline by default, never overwriting.
 
-The owner previously validated a private-export dry-run and write; revalidation after the latest parser/validation fixes and Obsidian review remain unverified. The committed demonstration is wholly synthetic and runs offline with no credentials. No screenshot is included by design.
-
 Never publish your EMDB directory, cache, artwork, notes, reviews, or API key.
 
 ## Quickstart (Python 3.11+, uv)
