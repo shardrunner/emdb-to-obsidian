@@ -85,7 +85,7 @@ All records, names, trees, artwork signatures and rendered notes are planned bef
 
 ## Package validation
 
-CI is configured for Ubuntu/Windows and Python 3.11/3.13; configuration is not evidence of a completed native Windows run. After `uv build`, run `uv run python scripts/smoke_wheel.py`: it installs the built wheel into a separate temporary environment, clears `PYTHONPATH`, verifies isolated import, and exercises CLI version/help and synthetic offline dry-run/write from outside the repository. Dependency installation may need a package index; runtime checks use no provider.
+[CI passed for commit `a6810c5`](https://github.com/shardrunner/emdb-to-obsidian/actions/runs/40252224941) on Ubuntu and Windows with Python 3.11/3.13, including distribution builds and installed-wheel smoke checks. After `uv build`, run `uv run python scripts/smoke_wheel.py`: it installs the built wheel into a separate temporary environment, clears `PYTHONPATH`, verifies isolated import, and exercises CLI version/help and synthetic offline dry-run/write from outside the repository. Dependency installation may need a package index; runtime checks use no provider.
 
 ## Publication checklist
 
